@@ -1,15 +1,34 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "MrCool",
   "pluginType": "platform",
   "singular": true,
   "schema": {
     "type": "object",
     "properties": {
-      "name": {
-        "title": "Name",
+      "username": {
+        "title": "Username (email)",
         "type": "string",
-        "required": true,
-        "default": "Example Dynamic Platform"
+        "required": true
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true
+      },
+      "ip": {
+        "title": "Public IP Address",
+        "type": "string",
+        "required": true
+      },
+      "macAddresses": {
+        "title": "HVAC MAC Addresses",
+        "type": "array",
+        "items": {
+          "title": "MAC Address",
+          "description": "No colons, all caps",
+          "type": "string",
+          "pattern": "^[A-F0-9]{12}$"
+        }
       }
     }
   }
