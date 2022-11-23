@@ -18,10 +18,12 @@
       "ip": {
         "title": "Public IP Address",
         "type": "string",
+        "description": "Your public IP is used as a session identifier. Go to https://whatismyipaddress.com/ to get.",
         "required": true
       },
       "macAddresses": {
         "title": "HVAC MAC Addresses",
+        "description": "List of the MAC Addresses of each HVAC unit you want to the plugin to connect",
         "type": "array",
         "items": {
           "title": "MAC Address",

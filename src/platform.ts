@@ -2,7 +2,7 @@ import { API, DynamicPlatformPlugin, Logger, PlatformAccessory, PlatformConfig, 
 
 import { PLATFORM_NAME, PLUGIN_NAME } from './settings';
 import { MrCoolPlatformAccessory } from './platformAccessory';
-import { MrCoolHVAC, MrCoolAPIConnection } from 'node-mrcool';
+import { MrCoolAPIConnection } from 'node-mrcool';
 
 /**
  * HomebridgePlatform
