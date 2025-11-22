@@ -1,3 +1,5 @@
+# This repo is archived. Please see [homebridge-smartcielo](https://github.com/ryanfroese/homebridge-smartcielo) for active usage/development
+
 # MrCool Homebridge Plugin
 
 [![license](https://badgen.net/github/license/isaac-webb/homebridge-mrcool)](https://github.com/isaac-webb/homebridge-mrcool/blob/master/LICENSE)
